@@ -90,6 +90,7 @@ document.querySelector('.meal-row').addEventListener('click', (e) => {
                    document.querySelector('.meal-row').style.display = 'none'
                    document.querySelector('.recipe-details').style.display = 'flex'
                    document.querySelector('.recipe-details').innerHTML = details;
+                   document.querySelector('.hints').style.display = 'none'
                     }
                 })
             })
@@ -100,4 +101,5 @@ document.querySelector('.meal-row').addEventListener('click', (e) => {
 function removeDetails(){
     document.querySelector('.meal-row').style.display = 'flex'
     document.querySelector('.recipe-details').style.display = 'none'
+    document.querySelector('.hints').style.display = 'block'
 }
