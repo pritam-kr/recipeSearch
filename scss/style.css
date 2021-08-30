@@ -233,4 +233,11 @@ footer ul li a {
   margin-top: 10px;
   cursor: pointer;
 }
+
+.hints ul li {
+  display: inline-block;
+  margin: 5px;
+  font-weight: bold;
+  color: #727272;
+}
 /*# sourceMappingURL=style.css.map */
