@@ -14,6 +14,7 @@ form.addEventListener('submit', (e) => {
         showMessage("Please enter your meal..")
     } else {
         fecthMeal(searchMeal)
+        form.reset()
     }
 
 })
